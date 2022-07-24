@@ -1,0 +1,33 @@
+
+
+.main-title, .body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chef-gif{
+    width: 500px;
+    display:block;
+    margin:auto;
+    
+}
+
+.body{
+    margin-top: 10px;
+}
+.Lasanga-button,.Pizza-button,.Hamburger-button{
+    background: none;
+    border:none;
+    background-color: black;
+    height:50px;
+    border-radius:25px;
+}
+.Lasanga-link,.Pizza-link,.Hamburger-link{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+.Lasanga-button:hover,.Pizza-button:hover,.Hamburger-button:hover{
+    background-color: rgb(241, 121, 141);
+    opacity: 0.9;
+    cursor: pointer;
+}
